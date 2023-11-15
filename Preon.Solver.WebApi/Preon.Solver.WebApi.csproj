@@ -8,8 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.13" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Preon.Solver.Core\Preon.Solver.Core.csproj" />
+    <ProjectReference Include="..\Preon.Solver.Domain\Preon.Solver.Domain.csproj" />
   </ItemGroup>
 
 </Project>

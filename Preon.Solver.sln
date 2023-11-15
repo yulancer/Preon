@@ -5,7 +5,9 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Preon.Solver.WebApi", "Preon.Solver.WebApi\Preon.Solver.WebApi.csproj", "{2F6E9442-4FF6-460E-A2B0-1E42EA7CB52A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Preon.Solver.Contracts", "Preon.Solver.Contracts\Preon.Solver.Contracts.csproj", "{F673AC7C-FF5A-4C99-87C7-965C1051EF22}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Preon.Solver.Core", "Preon.Solver.Core\Preon.Solver.Core.csproj", "{F673AC7C-FF5A-4C99-87C7-965C1051EF22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Preon.Solver.Domain", "Preon.Solver.Domain\Preon.Solver.Domain.csproj", "{612F9F80-BBB5-4E0D-89D6-C0422018F6BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F673AC7C-FF5A-4C99-87C7-965C1051EF22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F673AC7C-FF5A-4C99-87C7-965C1051EF22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F673AC7C-FF5A-4C99-87C7-965C1051EF22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{612F9F80-BBB5-4E0D-89D6-C0422018F6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{612F9F80-BBB5-4E0D-89D6-C0422018F6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{612F9F80-BBB5-4E0D-89D6-C0422018F6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{612F9F80-BBB5-4E0D-89D6-C0422018F6BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
