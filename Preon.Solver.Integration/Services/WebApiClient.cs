@@ -45,7 +45,7 @@ public class WebApiClient : IWebApiClient
         var content = await responsePolicy.Result.Content.ReadAsStringAsync(token);
         if (responsePolicy.Outcome is OutcomeType.Failure || httpStatusCodesWorthRetrying.Contains(responsePolicy.Result.StatusCode))
         {
-            string message = $"Произошла ошибка при запросе к сервису запретов. " +
+            string message = $"Произошла ошибка при запросе к сервису. " +
                              $"ErrorMessage: {content} FinalException: {responsePolicy.FinalException}";
             _logger.LogError(message);
             throw new HttpRequestException(message);
