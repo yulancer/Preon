@@ -1,10 +1,15 @@
+using AutoMapper;
 using Preon.Solver.Contracts.Abstractions;
+using Preon.Solver.Domain;
 using Preon.Solver.Domain.Services;
+using Preon.Solver.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddSingleton<IPersonRepository, FakePersonRepository>();
+builder.Services.RegisterApiClient(builder.Configuration);
+builder.Services.AddMediatR(configuration => configuration.RegisterServicesFromAssembly(typeof(Entry).Assembly));
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

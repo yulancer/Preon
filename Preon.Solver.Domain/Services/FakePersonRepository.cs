@@ -11,7 +11,8 @@ public class FakePersonRepository : IPersonRepository
         return new PersonModel
         {
             ScheduleType = ScheduleType.Schedule2x2,
-            Name = "fake schedule"
+            Name = "fake schedule",
+            ExtraHolidays = Array.Empty<int>()
         };
     }
 }

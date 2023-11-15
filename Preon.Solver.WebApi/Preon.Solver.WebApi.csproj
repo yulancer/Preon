@@ -16,6 +16,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Preon.Solver.Core\Preon.Solver.Core.csproj" />
     <ProjectReference Include="..\Preon.Solver.Domain\Preon.Solver.Domain.csproj" />
+    <ProjectReference Include="..\Preon.Solver.Integration\Preon.Solver.Integration.csproj" />
   </ItemGroup>
 
 </Project>

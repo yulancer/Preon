@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Preon.Solver.Core", "Preon.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Preon.Solver.Domain", "Preon.Solver.Domain\Preon.Solver.Domain.csproj", "{612F9F80-BBB5-4E0D-89D6-C0422018F6BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Preon.Solver.Integration", "Preon.Solver.Integration\Preon.Solver.Integration.csproj", "{FFDD674A-A125-4E1F-A986-D43DD259B072}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{612F9F80-BBB5-4E0D-89D6-C0422018F6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{612F9F80-BBB5-4E0D-89D6-C0422018F6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{612F9F80-BBB5-4E0D-89D6-C0422018F6BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFDD674A-A125-4E1F-A986-D43DD259B072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFDD674A-A125-4E1F-A986-D43DD259B072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFDD674A-A125-4E1F-A986-D43DD259B072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFDD674A-A125-4E1F-A986-D43DD259B072}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
